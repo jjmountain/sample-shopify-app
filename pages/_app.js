@@ -8,6 +8,8 @@ import { Provider } from '@shopify/app-bridge-react';
 import Cookies from 'js-cookie';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
+import $ from "jquery";
+
 
 const client = new ApolloClient({
   fetchOptions: {
